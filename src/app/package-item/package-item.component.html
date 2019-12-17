@@ -1,0 +1,21 @@
+<mat-card>
+
+  <img mat-card-sm-image [src]="getCorrectBase64(package.screen)" [alt]="package.title">
+  <mat-card-title>
+{{package.title}}
+  </mat-card-title>
+  <mat-card-subtitle>
+    {{package.sender}}
+  </mat-card-subtitle>
+  <mat-card-subtitle>
+    {{package.recipient}}
+  </mat-card-subtitle>
+  <mat-card-content>
+    {{package.description}}
+  </mat-card-content>
+  <button mat-button (click)="packageService.remove(package.id)" color="warn">Delete</button>
+</mat-card>
+
+      
+
+  
