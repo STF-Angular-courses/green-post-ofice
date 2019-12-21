@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0d651be-4bb4-44de-b6ad-621fc7c79163" name="Default Changelist" comment="" />
+    <list default="true" id="e0d651be-4bb4-44de-b6ad-621fc7c79163" name="Default Changelist" comment="package-model add">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +23,11 @@
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -60,17 +67,6 @@
               <item name="green-post-ofice" type="b2602c69:ProjectViewProjectNode" />
               <item name="green-post-ofice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="green-post-ofice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="green-post-ofice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="green-post-ofice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="green-post-ofice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -84,6 +80,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="ts.external.directory.path" value="F:\PHP_Shtorm\PhpStorm 2018.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,12 +127,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576950295098</updated>
-      <workItem from="1576950297266" duration="2748000" />
+      <workItem from="1576950297266" duration="2949000" />
     </task>
+    <task id="LOCAL-00001" summary="department-model add">
+      <created>1576953209383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576953209383</updated>
+    </task>
+    <task id="LOCAL-00002" summary="package-model add">
+      <created>1576953230158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576953230158</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2748000" />
+    <option name="totallyTimeSpent" value="2949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -154,9 +166,10 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" sideWeight="0.4989339" weight="0.32972974" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.4989339" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5010661" side_tool="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -165,7 +178,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -223,6 +236,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="department-model add" />
+    <MESSAGE value="package-model add" />
+    <option name="LAST_COMMIT_MESSAGE" value="package-model add" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dist/post-office-green/index.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -238,7 +256,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
