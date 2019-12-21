@@ -1,9 +1,0 @@
-<div class="line">
-    <button mat-flat-button color="accent" (click)="showDepart.emit(depart.id)">Open</button>
-    
-    {{depart.name}}
-    {{depart.worktime}}
-
-    <button mat-flat-button (click)="departmentService.remove(depart.id)" color="warn">Delete</button> 
-    <button (click)="packageService.addLeter(depart.id)">Add Leter</button><button (click)="packageService.addParcel(depart.id)">Add Parcel</button>
-</div>
