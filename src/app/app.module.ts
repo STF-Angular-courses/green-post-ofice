@@ -10,6 +10,7 @@ import { MatCardModule,  MatGridListModule, MatListModule, MatButtonModule } fro
 import { DepartmentShowComponent } from './department-show/department-show.component';
 import { DepartmentService } from './common/services/department.service';
 import { PackageService } from './common/services/package.service';
+import { Base64Pipe } from './common/pipes/base64.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { PackageService } from './common/services/package.service';
     DepartmentItemListComponent,
     PackageItemListComponent,
     PackageItemComponent,
-    DepartmentShowComponent
+    DepartmentShowComponent,
+    Base64Pipe
   ],
   imports: [
     BrowserModule,

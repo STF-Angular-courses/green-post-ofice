@@ -1,5 +1,5 @@
 <mat-card>
-  <img mat-card-sm-image [src]="getCorrectBase64(package.screen)" [alt]="package.title">
+  <img mat-card-sm-image [src]="package.screen | base64" [alt]="package.title">
   <mat-card-title>
 {{package.title}}
   </mat-card-title>
